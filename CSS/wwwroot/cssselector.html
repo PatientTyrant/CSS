@@ -1,0 +1,49 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <style>
+        p {
+            /* Element Seçiciler genelde ortak stiller vermek için kullanılır*/
+            color:red;
+        }
+        /* ID Seçici*/
+
+        #b1 { 
+
+            color:#00ffff;
+            border-bottom-color:#81312e;
+            border-bottom-style:solid;
+            border-width:thick
+        }
+        #b2 {
+            color: #600c0c;
+            vorder-bottom:1px solid #ff6a00;
+        }
+        #b3 {
+            color: #4cff00;
+            border-bottom-color: #81312e;
+            border-bottom-style: solid;
+            border-width: thick
+        }
+
+        .yazi{ /* Class seçici => Ortak stil uygulamak için kulllanılır => sık kullanılan seçici türüdür.*/
+            font-size:30px;
+        }
+
+    </style>
+    
+</head>
+<body>
+    <p> Paragraf 1 </p>
+    <p class="yazi"> Paragraf 2 </p>
+    <p> Paragraf 3 </p>
+
+    <b id="b1"> Metin 1 </b>
+    <br />
+    <b id="b2"> Metin 2 </b>
+    <br />
+    <b id="b3" class="yazi"> Metin 3 </b>
+</body>
+</html>
